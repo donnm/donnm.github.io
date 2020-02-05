@@ -8,11 +8,12 @@
 pre,
 code {
   font-family: Menlo, Monaco, "Courier New", monospace;
+  background-color: #fafafa;
 }
 
 pre {
   background-color: #fafafa;
-  font-size: .8rem;
+/*  font-size: .8rem; */
   overflow-x: scroll;
   padding: 1.125em;
 }
