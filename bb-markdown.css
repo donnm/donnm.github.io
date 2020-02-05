@@ -1,9 +1,3 @@
-p,
-.splendor-p {
-  font-size: 1rem;
-  margin-bottom: 1.3rem;
-}
-
 h1,
 .splendor-h1,
 h2,
@@ -57,33 +51,6 @@ small,
 
 @import url(http://fonts.googleapis.com/css?family=Merriweather:300italic,300);
 
-/* === A bit of a gross hack so we can have bleeding divs/blockquotes. */
-
-p,
-*:not(div):not(img):not(body):not(html):not(li):not(blockquote):not(p) {
-  margin: 1rem auto 1rem;
-  max-width: 36rem;
-  padding: .25rem;
-}
-
-blockquote p {
-  font-size: 1.5rem;
-  font-style: italic;
-  margin: 1rem auto 1rem;
-  max-width: 48rem;
-}
-
-li {
-  margin-left: 2rem;
-}
-
-/* Counteract the specificity of the gross *:not() chain. */
-
-h1 {
-  padding: 4rem 0 !important;
-}
-
-/*  === End gross hack */
 
 p {
   color: #555;
@@ -101,15 +68,4 @@ pre {
   font-size: .8rem;
   overflow-x: scroll;
   padding: 1.125em;
-}
-
-a,
-a:visited {
-  color: #3498db;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: #2980b9;
 }
